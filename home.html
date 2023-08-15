@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pet Adoption Home</title>
+<style>
+  /* Reset default margin and padding */
+  body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  /* Navbar styles */
+  .navbar {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+  }
+
+  .navbar h1{
+  position: fixed;
+  top: 505;
+  left: 16px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+  }
+
+  .navbar a:hover{
+    color: #ff9900;
+  }
+
+  .navbar img{
+    position: relative;
+    left:500px;
+  }
+
+  /* Banner section */
+  .banner {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .banner img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+  }
+
+  .banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+
+  .banner h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+
+  .banner-buttons {
+    margin-top: 20px;
+  }
+
+  .banner-buttons button {
+    padding: 10px 20px;
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+
+  /* Who are we section styles */
+  .who-are-we {
+    display: flex;
+    align-items: center;
+    padding: 60px;
+  }
+
+  .who-are-we img {
+    flex: 1;
+    max-width: 50%;
+  }
+
+  .who-are-we p {
+    flex: 1;
+    padding: 0 40px;
+    font-size: 1.2em;
+  }
+
+  .donate-button {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .donate-button button {
+    padding: 10px 30px;
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+
+  .header img{
+    background-size: cover;
+  }
+
+  /* Adjusted user profile icon */
+  .user-profile-icon img {
+    width: 30px; /* Adjust the size as needed */
+  }
+   /* Story of the month section */
+   .story-of-the-month {
+    background-color: #f4f4f4;
+    padding: 60px 0;
+  }
+
+  .story-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .story-of-the-month img {
+    width: 50%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  .story-of-the-month h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+
+  .story-of-the-month p {
+    font-size: 1.2em;
+  }
+
+  /* Footer styles */
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+  }
+
+  .footer-logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+  }
+
+  .footer p {
+    margin-top: 20px;
+  }
+
+  .container {
+  position: relative;
+  text-align: center;
+  color: white;
+  }
+
+  .centered {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  }
+
+  .centered button{
+    top:50%;
+    background-color:#0a0a23;
+    color: #fff;
+    border:none; 
+    border-radius:10px; 
+    padding:15px;
+    min-height:30px; 
+    min-width: 120px;
+  }
+
+  .centered button:hover {
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 3px white;
+    transition: 0.5s;
+}
+
+.banner{
+  padding: 50px;
+  text-align: center;
+  font-size: 70px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #553c9a, #b393d3);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.navbar.dogandcat {
+  position: absolute;
+  left:5px;
+
+}
+
+</style>
+</head>
+<body>
+
+  <!-- Navbar section -->
+  <nav class="navbar">
+    <a href="#">Home</a>
+    <a href="#">Adopt</a>
+    <a href="file:///C:/Users/pravin%20tangade/Downloads/re/about.html">About Us</a>
+    <a href="#">Contact</a>
+    <h1>ADOPPET</h1>
+    <img src="user-profile-icon.png" alt="logo" style="width:5%">
+  </nav>
+
+  <!-- Header section -->
+  <div class="container">
+    <img src="header-image.jpeg" alt="Header" style="width:100%;">
+    <div class="centered">
+      <h1>Do You Want a Pet?</h1>
+      <button>Explore</button>
+      <button>About Us!!!</button>
+    </div>
+    
+  </div>
+
+
+  <!-- Who are we section -->
+  
+  <h1 class="banner">WHO ARE WE ? <br> WHAT WE DO?</h1>
+  <section class="who-are-we">
+    <img src="who-are-we-image.jpg" alt="Who Are We">
+    <p>We are a passionate group of animal lovers dedicated to finding loving homes for abandoned pets. Our mission is to create a better world for animals by connecting them with caring families. With your support, we can make a difference!</p>
+    <div class="donate-button">
+      <button>Donate Now</button>
+    </div>
+  </section>
+
+  <!-- Add more sections as needed -->
+  <!-- Story of the month section -->
+  <div class="story-of-the-month">
+    <div class="story-content">
+      <img src="dog.jpeg" alt="Story of the Month">
+      <h2>Story of the Month</h2>
+      <p>Meet Max, our adorable rescue dog who overcame challenges and found his forever home. Max's journey is a testament to the impact of pet adoption and the love that animals bring into our lives.</p>
+    </div>
+  </div>
+
+  <!-- Footer section -->
+  <footer class="footer">
+    <a href="#" class="footer-logo">Pet Adoption Center</a>
+    <p>&copy; 2023 Pet Adoption Center. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
